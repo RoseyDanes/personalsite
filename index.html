@@ -1,0 +1,102 @@
+index.html<!DOCTYPE html>
+<html>
+<head>
+	<title>Dana Rose</title>
+	<meta charset="utf-8">
+	<style>
+		*{
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+		a {text-decoration: none;}
+		.social-icon {
+			height: 50px;
+			width: 50px
+			margin: 0 5px;
+		}
+		.profile-pic {
+			border-radius: 100%;
+			height: 125px;
+			width: 125px;
+		}
+		.header{
+			padding: 50px 0;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			background-color: rgba(144, 29, 17, 0.8);
+		}
+		.header h1 {
+			color: white;
+			font-size: 2.2em;
+			margin: 15px 0;
+			letter-spacing: 0.07em;
+		}
+		.quote {
+			height: 300px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			background: url('quote-background.jpeg')fixed bottom;
+			color: white;
+		}
+		.quote p {
+			line-height: 300px;
+			/*width: 100%;*/
+			text-align: center;
+			background-color: rgba(0, 0, 0, 0.5);
+			font-size: 20px;
+		}
+		.about-me {
+			min-height: 200px;
+			padding: 25px 0;
+		}
+		.column {
+			float: left;
+			width: 50%;
+		}
+		.left {
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+
+	<section class='header'>
+		<img src="default_user.png"alt="picture of Dana" class='profile-pic'>
+		<h1>Dana Rose</h1>
+		<div>
+			<a href='#'>
+				<img src="github.svg" alt="github icon" class='social-icon'>
+			</a>
+			<a href='http://www.linkedin.com/in/dana-leija'>
+				<img src="linkedin.svg" alt=">linkedin icon" class='social-icon'>
+			</a>
+			<a href='#'>
+				<img src="twitter.svg" alt="twitter icon" class='social-icon'>
+			</a>
+		</div>
+	</section>
+
+	<section class='quote'>
+		<p>
+			<em>Butt Ball, Butt Ball, where did you go?</em>
+		</p>
+	</section>
+
+	<section class='about-me'>
+		<div class="column left">
+		<h2>About Me</h2>
+		</div>
+		<div class='column'>
+			<p>Some text about me would go right <b>here</b> or something like that... this is just filler. :)</p>
+			<br>
+			<p>Here is some text, oh boy!</p>
+		</div>
+	</section>
+
+	<section></section>
+</body>
+</html>
